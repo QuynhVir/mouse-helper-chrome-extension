@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Helper",
+  "version": "1.0",
+  "description": "A simple Chrome extension to show mouse position",
+  "host_permissions": ["*://*/*"],
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png"
+  }
+}
